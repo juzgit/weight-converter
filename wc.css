@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 6rem;
+    margin-top: 5rem;
+    padding: 15px;
+}
+
+.sub-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    width: max-content;
+}
+
+.sub-container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.labels{
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+input{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.inputs-controller{
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 3px solid black;
+}
+
+.buttonController{
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
